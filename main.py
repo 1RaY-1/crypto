@@ -2,7 +2,7 @@
 
 # Author: 1RaY-1 (https://github.com/1ray-1)
 # Upload date: September 25 of 2023
-# License: MIT (see LICENSE)
+# License: MIT (see LICENSE file)
 # Description: Read README.md
 
 # THE MAIN FILE
