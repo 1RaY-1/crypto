@@ -45,6 +45,11 @@ More:
 </p>
 
 
+## Logs
+By default this program will generate logs of when and what text you've encrypted/decrypted in the base folder, in logs.txt
+
+But you can disable it, in [main.py](https://github.com/1RaY-1/crypto/blob/main/main.py) on line 33: put **True** **False**
+
 It is not a super program, cause it's CLI, and you need python to be installed to use it, but still, I think it's a cool script.
 
 If you have a question about this project, you can ask me in [issue](https://github.com/1RaY-1/crypto/issues).
