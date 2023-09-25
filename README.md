@@ -3,8 +3,7 @@ A simple CLI program to convert your normal ***secret*** text to a text with ran
 
 ## Hot to use it?
 ```
-Crypto program --- USAGE
-python3 main.py [OPTION] [TEXT] # <-- recommended to use "" or ''
+python3 main.py [OPTION] """YOUR-TEXT""" 
 
 Example:
 * Encrypt a text
@@ -18,9 +17,16 @@ Options:
 3: ['e', '-e', 'en', '-en', '--encrypt'] <-- Encrypt a text
 
 More:
-- If it doesnt encrypt/decrypt all the letters of a word, just generate a new alphabet and try again
 - Module files can be run directly from terminal (using: python3 modules/[MODULE-FILE].py)
 
 ```
+
+## Screenshot
+
+<br>
+<p align="center">
+<img src="images/example.png"/>
+</p>
+
 
 ## Will Complete The Description Later
