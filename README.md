@@ -1,7 +1,17 @@
-## What is it?
-A simple CLI program to convert your ***secret*** text to random letters and symbols, and convert this random text to normal using a randomly generated dictionary.
+## What This Program Does?
+Convert your ***secret*** text to random letters and symbols, and convert this random letters & symbols back to normal text using a simple [.json dictionary](https://github.com/1RaY-1/crypto/blob/main/data.json).
 
-Let's say you wanna send a send something in your whatsapp group but only 1 person's allow to see it, you can **ecnrypt** your message using this program and send it to your partner and the partner can decrypt your message using this program and **the same data.json file**
+Let's say you wanna send something to your whatsapp group but only 1 person's allow to see it, so you can **ecnrypt** your message using this program and send it there and only your partner can see what you've send, because you both have **the same data.json file**
+
+You can also encrypt with base64 the data.json to key.txt before sending it to your partner (idk if this posibility was necessary) and decrypt key.txt to data.json
+To do so:
+```
+Encrypt data.json to key.txt (with base64 chars)
+python3 modules/key_manager -en
+
+Decrypt key.txt into data.json
+python3 modules/key_manager -de
+```
 
 ## Requirements
 This program works on Windows, Linux, Android (Using [Termux](https://termux.dev), iOS (using [iSH](https://ish.app/))
