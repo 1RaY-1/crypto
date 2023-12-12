@@ -77,10 +77,6 @@ Encrypted: {self.encrypted_text}
     def main(self, decrypted_text, encrypted_text):
         Encryptor.load(self)
 
-        # Encrypt the single argument
-# Я в ахере как это получилось, тоесть название переменный "зашиврованно" 
-# либо не "зашиврованно" получилось КРИВО и чуть перемешанно ?
-# но, РАБОТАЕТ-НЕ ТРОГАЙ !!
         #print(sys.argv[1:]) # why not, to see what argument i put and what text to encrypt
 
         for e in decrypted_text: # 1: is to ignore 0 argument, which is program's name
