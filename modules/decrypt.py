@@ -25,8 +25,11 @@ class Decryptor:
                 f.close()
 
 #       I think this peace of code below doesnt work...
-        #elif os.path.isfile(self.b64_data_file):
+        elif os.path.isfile(self.b64_data_file):
+            print(f"First decrypt {self.b64_data_file} with 'key_manager.py' and '-de' option\n")
+            sys.exit(1)
           # decode base64, use bash or cmd commands
+          # the commented code below doesnt work, just use the modeules/key_manager script with -de option before
         #    os.system(f"certutil -decode {self.b64_data_file} {self.data_file}") if platform.system == "Windows" else os.system(f"base64 -d {self.b64_data_file} > {self.data_file}")
         #    with open(self.data_file, "r") as f:
         #        self.crypto_alphabet = json.load(f)
