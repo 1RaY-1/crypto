@@ -27,10 +27,11 @@ class Encryptor:
                 self.crypto_alphabet = json.load(f)
                 f.close()
 
-#       Doesnt WORK! Just give the .json file rather than encrypted in base64
-        # or maybe yet we have encrypted crypto alphabet, and will encrypt it using base64
-        #elif os.path.isfile(self.b64_data_file):
+        elif os.path.isfile(self.b64_data_file):
+            print(f"First decrypt {self.b64_data_file} with 'key_manager.py' and '-de' option\n")
+            sys.exit(1)
            # decode base64, use bash or cmd commands
+           # the commented code below doesnt work, just use the modeules/key_manager script with -de option before
         #    os.system(f"certutil -decode {self.b64_data_file} data.txt"); os.system("ren data.txt " + self.data_file ) if platform.system == "Windows" else os.system(f"base64 -d {self.b64_data_file} > {self.data_file}")
         #    with open(self.data_file, "r") as f:
         #        self.crypto_alphabet = json.load(f)
@@ -77,6 +78,7 @@ Encrypted: {self.encrypted_text}
     def main(self, decrypted_text, encrypted_text):
         Encryptor.load(self)
 
+        # Encrypt the single argument
         #print(sys.argv[1:]) # why not, to see what argument i put and what text to encrypt
 
         for e in decrypted_text: # 1: is to ignore 0 argument, which is program's name
@@ -88,7 +90,7 @@ Encrypted: {self.encrypted_text}
         if self.save_data:
             Encryptor.function_save_data(self)
 
-##################################3
+##################################
 
     def solo_main(self):
         encryptor.load()
