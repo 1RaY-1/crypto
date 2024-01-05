@@ -5,7 +5,7 @@
 # And it decodes key.txt using base64 into data.json
 # it works!
 
-# Usage: python3 modules/key_manager.py [data.json OR key.txt]
+# Usage: python3 modules/key_manager.py -en (or -de, to decrypt)
 
 import base64
 import sys
@@ -32,7 +32,7 @@ def encode(filename):
         file_result = open(target_crypto_file, 'wb')
         file_result.write(file_64_encode)
     except Exception as e:
-        sys.exit("An error ocured:\n" + str(e))
+        sys.exit("An error occured:\n" + str(e))
     else:
         print("Check out the " + target_crypto_file + " and pass it to the partner")
 
@@ -45,7 +45,7 @@ def decode(filename):
         file_result = open(target_file, 'wb')
         file_result.write(file_64_decode)
     except Exception as e:
-        sys.exit("An error ocured:\n" + str(e))
+        sys.exit("An error occured:\n" + str(e))
     else:
         print("Check out the " + target_file)    
 
