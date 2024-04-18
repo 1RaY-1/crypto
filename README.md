@@ -46,7 +46,7 @@ More:
 
 
 ## Logs
-By default this program will generate logs of when and what text you've encrypted/decrypted in the base folder, in logs.txt
+By default this program will generate logs of "when" and "what" text you've encrypted/decrypted, in the base folder, in logs.txt
 
 But you can disable it, in [main.py](https://github.com/1RaY-1/crypto/blob/main/main.py) on line 33: change **True** to **False**
 
