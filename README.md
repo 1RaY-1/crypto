@@ -13,10 +13,10 @@ Decrypt key.txt into data.json
 python3 modules/key_manager -de
 ```
 
-## Requirements
-This program works on Windows, Linux, Android (Using [Termux](https://termux.dev), iOS (using [iSH](https://ish.app/))
+## Requirements & Supported OS
+This program works on **Windows**, **Linux**, **Android** (Using [Termux](https://termux.dev)), **iOS** (using [iSH](https://ish.app/))
 
-You need **Python** installed in your system to use it (maybe will compile it and submit directly the executable files later).
+You need to have **Python** installed in your system.
 ## Hot to use it?
 ```
 python3 main.py [OPTION] """YOUR-TEXT""" 
@@ -52,6 +52,4 @@ But you can disable it, in [main.py](https://github.com/1RaY-1/crypto/blob/main/
 
 
 ### More
-It is not a super program, cause it's CLI based, and you need python to be installed to use it, but still, I think it's a cool script.
-
-If you have a question about this project, you can ask me in [issue](https://github.com/1RaY-1/crypto/issues).
+It's not a super program, but still, I think it's a cool idea.
