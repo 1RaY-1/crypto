@@ -52,4 +52,8 @@ But you can disable it, in [main.py](https://github.com/1RaY-1/crypto/blob/main/
 
 
 ### More
-It's not a super program, but still, I think it's a cool idea.
+It's just a simple program
+
+For real private communication I'd probably suggest using PGP keys or a private messanger like [SimpleX](https://simplex.chat/) or [Signal](https://signal.org)
+
+Or even pairing PGP with a private messenger
