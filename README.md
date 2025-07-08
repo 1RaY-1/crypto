@@ -1,7 +1,7 @@
-## What This Program Does?
-Convert your ***secret*** text to random letters and symbols, and convert this random letters & symbols back to normal text using a simple [.json dictionary](https://github.com/1RaY-1/crypto/blob/main/data.json).
+## Crypto
+A simple CLI script to encrypt and decrypt messages using a custom JSON dictionary.
 
-Let's say you wanna send something to your whatsapp group but only 1 person is allowed to see it, so you can **ecnrypt** your message using this program and send it there and only your partner can see what you've send, because you both have **the same data.json file**
+Let's say you wanna send something to your whatsapp group but only 1 person is allowed to see it, so you can **encrypt** your message using this program and send it there and only your partner can see what you've send, because you both have **the same data.json file**
 
 You can also encrypt with base64 the data.json to key.txt before sending it to your partner (idk if this was necessary) and decrypt key.txt to data.json
 To do so:
@@ -17,7 +17,7 @@ python3 modules/key_manager -de
 This program works on **Windows**, **Linux**, **Android** (Using [Termux](https://termux.dev)), **iOS** (using [iSH](https://ish.app/))
 
 You need to have **Python** installed in your system.
-## Hot to use it?
+## How to use it?
 ```
 python3 main.py [OPTION] """YOUR-TEXT""" 
 
